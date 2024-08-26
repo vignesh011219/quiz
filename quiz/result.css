@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+main > div {
+  padding: 1rem;
+  margin: 1rem;
+}
+main > .crct {
+  background-color: rgb(92, 239, 92);
+}
+main > .wrong {
+  background-color: red;
+}
+
+main > div > p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+main > div > h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+main > div > h4 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+header > h1 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+header > h1 > span {
+  color: orange;
+}
+header > h2 {
+  padding-left: 1rem;
+}
+header > h2 > span {
+  color: orange;
+  margin-left: 1rem;
+}
+
+#outerDiv {
+  width: 70%;
+  background-color: red;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+#innerDiv {
+  height: 2rem;
+  width: 0%;
+  background-color: rgb(90, 242, 90);
+  border-radius: 20px;
+  position: relative;
+}
+#innerDiv > span {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  color: black;
+  display: none;
+}
